@@ -1,3 +1,6 @@
+/* font-family: 'Ephesis', cursive;
+font-family: 'Lato', sans-serif;*/ 
+
 *{
     margin-left: 10px;
     padding: 5px;   
@@ -5,14 +8,17 @@
 
 body{
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Lato', sans-serif;
 }
-
+/* index*/
 h1{
     text-align: center;
+    text-shadow: 2px 5px 50px rgba(0,0,0,0.75);
 }
 
 h3{
     color: grey;
+    text-shadow: 2px 5px 50px rgba(0,0,0,0.75);
 }
 
 #datos{
@@ -20,7 +26,7 @@ h3{
     height: 110px;
     text-align: center;
     font-size: 15px;
-    font-family: italic;
+    font-family: 'Lato', sans-serif;
     background-color: rgb(191, 191, 216);
     border-radius: 20px ;
     border: 1px solid ;
@@ -41,7 +47,7 @@ h3{
     height: 150px;
     text-align: center;
     font-size: 15px;
-    font-family: italic;
+    font-family: 'Lato', sans-serif;
     background-color: rgb(191, 191, 216);
     border-radius: 20px;
     border: 1px solid ;
@@ -57,7 +63,7 @@ h3{
     height: 150px;
     text-align: center;
     font-size: 15px;
-    font-family: italic;
+    font-family: 'Lato', sans-serif;
     background-color: rgb(191, 191, 216);
     border-radius: 20px;
     border: 1px solid ;
@@ -75,6 +81,7 @@ div:hover{
 a{
     font-size: 25px;
     color: rgb(123, 10, 228);
+    text-shadow: 2px 5px 50px rgba(0,0,0,0.75);
     transition: padding 0.5s ease;
 }
 a:hover{
@@ -83,11 +90,65 @@ a:hover{
     padding: 30px;
     cursor: pointer;  
 }
+
+footer{   
+    background: #5746e4;
+    background: linear-gradient(29deg,#5746e4 0%, #e7e7a6 40%, rgba(154,206,231,0) 80%);
+    background: -webkit-linear-gradient(29deg,#5746e4 0%, #e7e7a6 40%, rgba(154,206,231,0) 80%);
+    background: -moz-linear-gradient(29deg,#5746e4 0%, #e7e7a6 40%, rgba(154,206,231,0) 80%);
+}
+.misredessociales{
+    color: black;
+    text-shadow: 2px 5px 50px rgba(0,0,0,0.75);
+    
+}
+.boton-facebook{
+    background: rgb(4, 0, 255);
+    color:white;
+    padding-right: 15px;
+    margin: 10px;
+    border: 10px;
+}
+
+.boton-twitter{
+    background: rgb(0, 183, 255);
+    color:white;
+    padding: 10px;
+    margin: 10px;
+}
+.boton-instagram{
+    background: rgb(236, 11, 225);
+    color:white;
+    padding: 10px;
+    margin: 10px;
+}
+.boton-linkedin{
+    background: rgb(4, 4, 187);
+    color:white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.address{
+    font-family: 'Ephesis', cursive;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}
+
+/* carrera deportiva*/
+
 .parrafoscd{
     color: blueviolet;
+    width: cover;
+    padding: 10px;
+    box-shadow: 4px 4px 63px 0px rgba(107, 130, 231, 0.733) inset;
+    border: 2px solid black;
+    font-family: 'Lato', sans-serif;
 }
 h2{
     color: grey;
+    text-shadow: 2px 5px 50px rgba(0,0,0,0.75);
 }
 
 .records{
@@ -95,7 +156,7 @@ h2{
     height: 300px;
     text-align: center;
     font-size: 15px;
-    font-family: italic;
+    font-family: 'Lato', sans-serif;
     background-color: rgb(191, 191, 216);
     border-radius: 20px;
     border: 1px solid ;
@@ -104,18 +165,45 @@ h2{
     -webkit-box-shadow: 8px 9px 16px 2px rgba(0,0,0,0.44);
     -moz-box-shadow: 8px 9px 16px 2px rgba(0,0,0,0.44);
 }
+/* formulario*/
 
 .formulario{
     width: 500px;
     height: 400px;
     text-align: center;
     font-size: 15px;
-    font-family: italic;
+    text-shadow: 2px 5px 50px rgba(0,0,0,0.75);
+    font-family: 'Lato', sans-serif;
     background-color: rgb(191, 191, 216);
     border-radius: 20px;
     border: 1px solid ;
-    cursor: pointer;
+    cursor:pointer;
     box-shadow: 8px 9px 16px 2px rgba(0,0,0,0.44);
     -webkit-box-shadow: 8px 9px 16px 2px rgba(0,0,0,0.44);
     -moz-box-shadow: 8px 9px 16px 2px rgba(0,0,0,0.44);
 }
+
+input{
+    border-radius: 10px;
+
+}
+
+textarea{
+    border-radius: 10px;
+    border: 2px solid ;
+}
+
+.submit{
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 100px;
+
+}
+
+.reset{
+    border-radius: 10px;
+    width: 100px;
+
+}
+
+
